@@ -45,8 +45,3 @@ Route::get('direccion',['as' => 'address',function(){
 
 //<a href=".route('address').">Clic para ver direccion</a>
 //si queremos cambiar la url solo cambiariamos "direccion" y las url seguirian funcionando
-
-
-Route::get('correo',['as' => 'email',function(){
-    return "Hola desde la pagina correo";
-}]); //para acceder hay que apuntar a address
